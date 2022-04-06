@@ -1,4 +1,47 @@
+.list {
+}
+
 body {
   font-family: 'Raleway', Arial, sans-serif;
   font-family: 'Roboto', Arial, sans-serif;
 }
+
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.header-nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-nav-item :hover {
+  color: #2196f3;
+}
+.header-nav-item :focus {
+  color: #2196f3;
+}
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-item:hover {
+  color: #2196f3;
+}
+.header-item :focus {
+  color: #2196f3;
