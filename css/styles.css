@@ -22,8 +22,22 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* ------------------Header-------------------*/
 .header-logo {
+  font-family: 'Raleway' Tahoma, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -98,6 +112,7 @@ letter-spacing: 0.03em;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 .hero-btn-text:hover,
 .hero-btn-text:focus {
@@ -106,19 +121,6 @@ letter-spacing: 0.03em;
 }
 /* ------------------Preference---------------*/
 
-.preference-title {
-visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 .preference-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -128,7 +130,6 @@ visually-hidden {
   color: var(--title-color);
 }
 .preference-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -154,10 +155,25 @@ color: var(--title-color);
 
 }
 .team-item-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
+}
+/* ------------------Footer---------------*/
+.footer{
+    background-color: #2F303A;
+}
+.footer-logo-link {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.footer-logo {
+    color: #ffffff;
 }
