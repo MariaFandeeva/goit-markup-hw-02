@@ -45,3 +45,8 @@ body {
 }
 .header-item :focus {
   color: #2196f3;
+}
+
+.link {
+  text-decoration: none;
+}
