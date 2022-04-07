@@ -1,3 +1,11 @@
+:root {
+  --header-color: #757575;
+  --main-title-color: #ffffff;
+  --title-color: #212121;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
 body {
   font-family: 'Roboto', Arial, sans-serif;
 }
@@ -7,15 +15,23 @@ body {
 .list {
   list-style: none;
 }
-
+.title-text {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* ------------------Header-------------------*/
 .header-logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo {
+  font-family: 'Raleway' Tahoma, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -27,14 +43,18 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
 }
 .header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--header-color);
 }
 
 .header-mail {
@@ -42,5 +62,102 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--header-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+/* ------------------Hero--------------------*/
+
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+.hero-btn-text {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.hero-btn-text:hover,
+.hero-btn-text:focus {
+  color: var(--accent-color);
+  background-color: #ffffff;
+}
+/* ------------------Preference---------------*/
+
+.preference-title {
+visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.preference-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.preference-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* ------------------Works---------------*/
+
+.works-title {
+color: var(--title-color);
+}
+/* ------------------Team---------------*/
+
+.team-title {
+color: var(--title-color);
+}
+.team-item-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+
+}
+.team-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
 }
