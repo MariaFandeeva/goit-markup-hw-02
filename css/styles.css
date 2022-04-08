@@ -196,6 +196,10 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.adress-item:hover,
+.adress-item:focus {
+  color: #ffffff;
+}
 .adress {
   font-style: normal;
   font-size: 14px;
