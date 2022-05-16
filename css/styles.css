@@ -122,8 +122,7 @@ body {
 }
 .hero-btn-text:hover,
 .hero-btn-text:focus {
-  color: var(--accent-color);
-  background-color: #ffffff;
+  background-color: #188ce8;
 }
 /* ------------------Preference---------------*/
 
